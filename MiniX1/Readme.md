@@ -1,7 +1,7 @@
 # MiniX1
 
 ![](MiniX1)
-
+Link: https://oskarbuhl.gitlab.io/aesthetic-programming/MiniX1/
 
 ## 1. What have you produced?
 I have produced a face made by two squares each with an ellipse in the center. These squares are supposed to illustrate eyes. I made an ellipse as a nose, and then a rectangle as a mouth. The figures were supposed to illustrate some sort of robotic face. I've used the function "mouseWheel" two make the figures move, when scrolling on a mouse or a touchpad. I made the iris white and the rest of the figure blue, but when the moused/touchpad is pressed the color of all figures will turn orange as the background. What I initially wanted to do was to make the "mouth"/rectangle move faster than the nose, so that is would look like a face upside down when rolling down. Unfortunately I didn't have the time to figure that out. I found the mouseWheel function, and I just added more variables and figures. I found out what made the figures move, and then I just played with it. I added the mouseIsPressed just to make it a little more interactive. I think I found that in references as well.
