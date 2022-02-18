@@ -1,8 +1,9 @@
 # MiniX1
 
-![](MiniX1)
+![](miniX1.png)
 
-Link: https://oskarbuhl.gitlab.io/aesthetic-programming/MiniX1/
+Link til program: https://oskarbuhl.gitlab.io/aesthetic-programming/MiniX1/
+Link til kode: https://gitlab.com/OskarBuhl/aesthetic-programming/-/blob/main/MiniX1/sketch.js
 
 
 ## 1. What have you produced?
