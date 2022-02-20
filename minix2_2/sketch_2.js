@@ -5,8 +5,9 @@ function setup() {
   background(170, 198, 230);
   fill(255,0,0)
   noStroke()
-  ellipse(550,200,200)
-  ellipse(250,200,200)
+  ellipse(600,200,200)
+  ellipse(300,200,200)
+  ellipse(900,200,200)
 }
 function draw() {
 
