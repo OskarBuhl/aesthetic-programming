@@ -1,9 +1,13 @@
 ## What do you want to explore and/or express?
 With this MiniX I wanted to have a different approach by writing the readme first while coming up with the concept of this miniX. My initial thought was to create a background made of different loading screens from the most famous and used computer systems (Apple, Windows), and then making the famous throbber, that would count the percent of development until 99% and then just freeze there. Simultaneously the throbber from the Mac computers appear and just keep scrolling. Maybe some text would appear, something like: "you're not wasting your life/time, wait just a minute more". This would be comment on, how we use so much of our time by waiting for some digital clue of response, that would tell us what to do next, like we can't think for ourselves.
 
+What I then wanted to do was to create some sort of simulation. I was thinking about time, and how we live our lives according to stages or levels. First we want to finish some stages or levels in life in terms of education. Then a good job etc. Then getting married, having kids, a nice house: "The Game of Life". I like the metaphor, "The Game of Life", because it makes sense to me. We live to fulfill these levels, and like in many games, life is very competitive to many people. If you were so be stalled because of an error, something that goes wrong in your life, it feels like a setback, and everyone you know are moving forward, while you're stuck in the previous level, trying to move on to the next. This is where the throbber comes in play. My project is meant to be interpreted as a throbber of life, as a symbol of how you have no choice, but to wait it out, if an error occurs in a game, as in life. 
 
 
 ## What are the time-related syntaxes/functions that you have used in your program, and why have you used them in this way? How is time being constructed in computation (refer to both the reading materials and your coding)?
 
 
+
 ## Think about a throbber that you have encounted in digital culture, e.g. for streaming video on YouTube or loading the latest feeds on Facebook, or waiting for a payment transaction, and consider what a throbber communicates, and/or hides? How might we characterize this icon differently?
+
+My perception of a throbber is that it's object is to stall my, so that I don't get impatient. To me it's very provocative, because it is a very simple object, but the idea is so clever, and it outsmarts me and us all the time. At the back-end, something is loading or maybe crashed, but we don't know. We assume that the throbber is feedback, when it's really just an item to discipline us. 
