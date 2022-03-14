@@ -153,11 +153,6 @@ DrawCircle.prototype = {
     fill(this.color);
     ellipse(this.xPos,this.yPos, this.diameter, this.diameter);
 
-    // uncomment the lines below and start building your own shape here!
-    //rect(this.xPos,this.yPos, this.diameter/2, this.diameter);
-    //stroke(0);
-    //strokeWeight(this.diameter/6);
-    //point(this.xPos, this.yPos);
   },
 
   // *** Method: move the circle downwards ***
