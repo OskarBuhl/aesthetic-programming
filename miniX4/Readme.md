@@ -1,8 +1,8 @@
 # Game of Capta
 ![](gameofcapta.png)
 
-#### Run me:
-#### Code:
+#### Run me: https://oskarbuhl.gitlab.io/aesthetic-programming/miniX4/ - I think you have to use chrome, but I'm not sure. The camera didn't work the first time i tried.
+#### Code: https://gitlab.com/-/ide/project/OskarBuhl/aesthetic-programming/tree/main/-/miniX4/sketch.js/
 
 ## Project description
 My project is called “Game of Capta”. It is a game in which you are supposed to avoid the falling circles to hit the circle centered at the nose of the user’s face. The volume of your voice can make the circle, positioned at your nose, move forward as the volume increases. With the space key you can pause the game, so that the falling balls pause in midair. By pressing your mouse, a new circle will appear at the spot you pressed the mouse. The game has no explanation, and it is not clear whether you are supposed to hit the falling balls with the circle on your nose, or if you are to avoid them. The goal is therefore unclear to the user. The object of the “game” is to illustrate how many inputs a computer can capture data from. The camera captures the movement of your face. The keyboard listens if you use the space key. The microphone listens to the volume of sound. And the mouse captures your x and y coordinates and response to when you click the mouse. All these data capture components create this simple game.
