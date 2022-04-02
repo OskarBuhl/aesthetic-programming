@@ -1,3 +1,6 @@
+Code:https://gitlab.com/OskarBuhl/aesthetic-programming/-/blob/main/miniX3/sketch.js
+RunMe: https://oskarbuhl.gitlab.io/aesthetic-programming/miniX3/
+
 ## What do you want to explore and/or express?
 With this MiniX I wanted to have a different approach by writing the readme first while coming up with the concept of this miniX. My initial thought was to create a background made of different loading screens from the most famous and used computer systems (Apple, Windows), and then making the famous throbber, that would count the percent of development until 99% and then just freeze there. Simultaneously the throbber from the Mac computers appear and just keep scrolling. Maybe some text would appear, something like: "you're not wasting your life/time, wait just a minute more". This would be comment on, how we use so much of our time by waiting for some digital clue of response, that would tell us what to do next, like we can't think for ourselves.
 
