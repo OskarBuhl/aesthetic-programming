@@ -9,21 +9,22 @@ function setup() {
 
 function draw() {
   background(200,150,100);
+  //grid of lines with distances in between
   for (var xcor = 0; xcor < width-50; xcor += 50){
     for (var ycor = 0; ycor < height-50; ycor += 50){
        drawSomething(xcor, ycor);
      }
   }
 
-  //to keep increasing or decreasing the ellipses
+  //to move the center back and forth
 
   if (status == "up") {
-  	r+=0.05;   //increase the size at a time
+  	r+=0.05;   //speed
   }else{
   	r-=0.05;
   }
 
-  //if it reaches certain size, change the direction
+  //if it reaches certain "size", change the direction
   if (r > 13){    //until r reaches a certain number, reset the status
    status = "down";
   }else if (r < 0) {
@@ -31,7 +32,7 @@ function draw() {
   }
 }
 
-function drawSomething(x, y) {   // total horizontal ellipses (x axis = width/50); total vertical ellipses 19 (y axis = height/50) ) x2 ellipses (draw 2 ellipses at a time, see below)
+function drawLines(x, y) {   //the lines with coordinates
   line(x+50, y+25, 50*r, 50*r);
   line(x+25, y+50, 50*r, 50*r);
 }
