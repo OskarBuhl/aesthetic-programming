@@ -32,7 +32,7 @@ function draw() {
   }
 }
 
-function drawSomething(x, y) {   //the lines with coordinates
+function drawSomething(x, y) {   // the lines with coordinates
   line(x+50, y+25, 50*r, 50*r);
   line(x+25, y+50, 50*r, 50*r);
 }
