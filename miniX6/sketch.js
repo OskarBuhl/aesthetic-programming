@@ -62,7 +62,7 @@ function draw(){
 
 function checkBombNum(){ //creating the objects so they continuosly appear
   if(bomb.length < minBomb) {
-    bomb.push(new Bomb(floor(random(2,20))));
+    bomb.push(new Bomb(floor(random(2,5))));
   }
 }
 
