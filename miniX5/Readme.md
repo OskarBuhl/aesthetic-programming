@@ -7,9 +7,9 @@ RunMe:
 It was very difficult, for me, to create these simple rules. I always want to do something original, that would make people go “wow I didn’t think of that”, but I guess that is to set the bar a little too high for every miniX at least. What I came up with was the following rules:
 
 * The rules for this auto generative program are:
-** **Draw a grid of lines.**
-** **Make every line connect to a center.**
-** **Move the center diagonally back and forth.**
+** **Draw a grid of lines.
+** Make every line connect to a center.
+** Move the center diagonally back and forth.**
 
 I have set the program to go back and forth, because otherwise the center would just go beyond the canvas, and I believe the viewer would lose interest. There is not a random or noise element in my program, so in that sense I am not even sure if it is an auto generative program. It does not change over time and is therefore somewhat static. I could have put in a noise element perhaps, to make the center move “randomly” across the canvas, but then the expression of the program would be something else. But as Galanter states: **“The problem with such attempts at definition is that they mistake options and choices within the field of generative art as being requirements for generative art. The other option is to create a big tent that accommodates all kinds of generative art and discussion.”** (Galanter, 2016). Generative art is, by his definition: **“any art practice in which the artist uses a system, such as a set of natural language rules, a computer program, a machine, or other procedural invention, that is set into motion with some degree of autonomy, thereby contributing to or resulting in a completed work of art.”** (Galanter, 2016). So, I suppose my program is generative art after all.
 
