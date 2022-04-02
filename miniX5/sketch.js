@@ -12,7 +12,7 @@ function draw() {
   //grid of lines with distances in between
   for (var xcor = 0; xcor < width-50; xcor += 50){
     for (var ycor = 0; ycor < height-50; ycor += 50){
-       drawLines(xcor, ycor);
+       drawSomething(xcor, ycor);
      }
   }
 
@@ -32,7 +32,7 @@ function draw() {
   }
 }
 
-function drawLines(x, y) {   //the lines with coordinates
+function drawSomething(x, y) {   //the lines with coordinates
   line(x+50, y+25, 50*r, 50*r);
   line(x+25, y+50, 50*r, 50*r);
 }
