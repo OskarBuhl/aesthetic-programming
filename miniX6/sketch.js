@@ -1,3 +1,4 @@
+
 buildingSize = {
   w:100, h:100
 };
@@ -10,10 +11,12 @@ let score = 0;
 let health = 3;
 let s = 50;
 let button;
+// let life = 3;
+let color1;
+let color2;
+let color3;
 
-// let buildingSize;
-
-function preload(){
+function preload(){ //loading my images
   bombImage = loadImage("bomb.webp");
   building = loadImage("building.png");
   pic = loadImage("pic.png");
@@ -21,16 +24,17 @@ function preload(){
 
 function setup(){
   createCanvas(windowWidth, windowHeight);
-
+  color1 = color(255, 0, 0)
+  color2 = color(255, 0, 0)
+  color3 = color(255, 0, 0)
 }
 
 function draw(){
   background(255);
-  push();
+  push(); //Creating background
   translate(500,390)
   image(pic,0,0,windowWidth,windowHeight);
   pop();
-  // showBuilding();
   checkBombNum();
   showBomb();
   checkBombFall();
@@ -45,24 +49,18 @@ function draw(){
   textAlign(CENTER);
   text('score', width-200,-100);
   text(score,width-50,50);
-  push();
+  push(); //Making the hearts
   strokeWeight(1);
-
-  for (i = 0; i < 3; i += 50) {
-    // for (y = 0; y < height; y += s) {
-      fill(200, 0, 0);
-      heart(50, 50, s/2, 3);
-  }
+    heart(200, 50, 30, color1)
+    heart(240, 50, 30, color2)
+    heart(280, 50, 30, color3)
+  lifeCheck();
   pop();
   textSize(30);
   text('AVOID THE BOMBS!', 500, 50);
 }
 
-// function showBuilding(){
-//   building = new Building();
-// }
-
-function checkBombNum(){
+function checkBombNum(){ //creating the objects so they continuosly appear
   if(bomb.length < minBomb) {
     bomb.push(new Bomb(floor(random(2,5))));
   }
@@ -93,6 +91,7 @@ function checkBombHit(){
     );
   if (d < buildingSize.w/2){
     health--;
+    // life--;
     bomb.splice(i,1);
   } else if (bomb[i].pos.x < 3){
     score++;
@@ -102,13 +101,33 @@ function checkBombHit(){
   }
 }
 
-function heart(x, y, size, total) {
+function heart(x, y, size, col) {
   beginShape();
+  fill(col)
+  strokeWeight(3)
   vertex(x, y);
   bezierVertex(x - size / 2, y - size / 2, x - size, y + size / 3, x, y + size);
   bezierVertex(x + size, y + size / 3, x + size / 2, y - size / 2, x, y);
   endShape(CLOSE);
-  this.total = total;
+}
+function lifeCheck() {
+  if (health === 3) {
+    color1 = color(255, 0, 0)
+    color2 = color(255, 0, 0)
+    color3 = color(255, 0, 0)
+  } else if (health === 2) {
+    color1 = color(255, 255, 255)
+    color2 = color(255, 0, 0)
+    color3 = color(255, 0, 0)
+  } else if (health === 1) {
+    color1 = color(255, 255, 255)
+    color2 = color(255, 255, 255)
+    color3 = color(255, 0, 0)
+  } else if (health === 0) {
+    color1 = color(255, 255, 255)
+    color2 = color(255, 255, 255)
+    color3 = color(255, 255, 255)
+  }
 }
 
 function lose(){
