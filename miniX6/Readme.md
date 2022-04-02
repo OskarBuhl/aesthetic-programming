@@ -1,5 +1,5 @@
 #### Code:    
-#### RunMe:   https://oskarbuhl.gitlab.io/aesthetic-programming/miniX5/
+#### RunMe:   https://oskarbuhl.gitlab.io/aesthetic-programming/miniX6/
 
 ### Describe how does/do your game/game objects work?
 
