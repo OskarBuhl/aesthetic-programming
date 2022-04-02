@@ -2,8 +2,8 @@
 class Bomb {
     constructor()
     {
-    this.speed = floor(random(2,10));
-    this.size = floor(random(20,55));
+    this.speed = floor(random(2,15));
+    this.size = floor(random(15,55));
     this.pos = new createVector(random(0,width), 0);
     }
   fall(){

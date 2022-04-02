@@ -5,7 +5,7 @@ buildingSize = {
 let pic;
 let bomb = [];
 let bombImage;
-let minBomb = 6;
+let minBomb = 25;
 let building;
 let score = 0;
 let health = 3;
