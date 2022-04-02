@@ -1,3 +1,5 @@
+![](pic.png)
+
 Code:https://gitlab.com/OskarBuhl/aesthetic-programming/-/blob/main/miniX3/sketch.js
 RunMe: https://oskarbuhl.gitlab.io/aesthetic-programming/miniX3/
 
