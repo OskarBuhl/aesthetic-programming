@@ -9,16 +9,17 @@ let minBomb = 25;
 let building;
 let score = 0;
 let health = 3;
-let s = 50;
 let button;
 let color1;
 let color2;
 let color3;
+// let sound;
 
 function preload(){ //loading my images
   bombImage = loadImage("bomb.webp");
   building = loadImage("building.png");
   pic = loadImage("pic.png");
+  // sound = loadSound("sound.mp3");
 }
 
 function setup(){
@@ -26,6 +27,7 @@ function setup(){
   color1 = color(255, 0, 0)
   color2 = color(255, 0, 0)
   color3 = color(255, 0, 0)
+
 }
 
 function draw(){
@@ -91,8 +93,8 @@ function checkBombHit(){
     );
   if (d < buildingSize.w/2){
     health--;
-    // life--;
     bomb.splice(i,1);
+    // sound.play();
   } else if (bomb[i].pos.x < 3){
     score++;
     bomb.splice(i,1);
@@ -112,17 +114,17 @@ function heart(x, y, size, col) {
 }
 function lifeCheck() {
   if (health === 3) {
-    color1 = color(255, 0, 0)
-    color2 = color(255, 0, 0)
-    color3 = color(255, 0, 0)
+    // color1 = color(255, 0, 0)
+    // color2 = color(255, 0, 0)
+    // color3 = color(255, 0, 0)
   } else if (health === 2) {
     color1 = color(255, 255, 255)
-    color2 = color(255, 0, 0)
-    color3 = color(255, 0, 0)
+    // color2 = color(255, 0, 0)
+    // color3 = color(255, 0, 0)
   } else if (health === 1) {
     color1 = color(255, 255, 255)
     color2 = color(255, 255, 255)
-    color3 = color(255, 0, 0)
+    // color3 = color(255, 0, 0)
   } else if (health === 0) {
     color1 = color(255, 255, 255)
     color2 = color(255, 255, 255)
