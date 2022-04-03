@@ -1,7 +1,7 @@
 # Game of Capta
 ![](gameofcapta.png)
 
-#### Run me: 
+#### Run me: https://oskarbuhl.gitlab.io/aesthetic-programming/miniX4/
 #### Code: https://gitlab.com/-/ide/project/OskarBuhl/aesthetic-programming/tree/main/-/miniX4/sketch.js/
 
 ## Project description
