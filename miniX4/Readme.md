@@ -1,7 +1,7 @@
 # Game of Capta
 ![](gameofcapta.png)
 
-#### Run me: https://oskarbuhl.gitlab.io/aesthetic-programming/miniX4/ - I think you have to use chrome, but I'm not sure. The camera didn't work the first time i tried.
+#### Run me: 
 #### Code: https://gitlab.com/-/ide/project/OskarBuhl/aesthetic-programming/tree/main/-/miniX4/sketch.js/
 
 ## Project description
