@@ -7,8 +7,8 @@ As mentioned, I have used images for my game. To make the game less predictable,
 As the name gives away object-oriented programming is a method of creating objects which the computer sees as objects as well, instead of a piece of code that the program executes in the order it is programmed to. The implications of abstraction are both in ways of how we can reduce the complexity of the code by create object with methods and properties, and how the objects relate to the real world and the “interactions between and with the computational.” (Soon et al., 2020)
 So as the bomb object seems to hit the character, we would understand that it explodes and therefore disappears. At the same time, the program understands this action as within the character it deletes the object, and the result of the action is really with the “health” or “lives” and not the character as it seems. The abstraction of the bomb object is only an image that moves with a speed, and it can only be deleted, whether it hits the building character of goes out of the screen, it will be deleted, and it is not destructive as we now bombs to be. The building has a behavior as well, that is very different from the behavior of a real building. The abstraction of the building is in the interaction with the player and the mouse/computer input. (Soon et al., 2020)
 
-#### Code:   https://gitlab.com/OskarBuhl/aesthetic-programming/-/blob/main/miniX6/sketch.js
-#### RunMe:  https://oskarbuhl.gitlab.io/aesthetic-programming/miniX6/
+#### [Code:](https://gitlab.com/OskarBuhl/aesthetic-programming/-/blob/main/miniX6/sketch.js)
+#### [RunMe:](https://oskarbuhl.gitlab.io/aesthetic-programming/miniX6/)
 
 ### Refrence:
 * Soon Winnie & Cox, Geoff, "Object abstraction", Aesthetic Programming: A Handbook of Software Studies, London: Open Humanities Press, 2020, pp. 143-164

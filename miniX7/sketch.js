@@ -57,7 +57,7 @@ function draw(){
   lifeCheck();
   pop();
   textSize(30);
-  text('AVOID THE BOMBS!', 500, 50);
+  text('AVOID THE BOMBS!', width/2, height/2-300);
 }
 
 function checkBombNum(){ //creating the objects so they continuosly appear
