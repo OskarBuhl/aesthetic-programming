@@ -9,9 +9,6 @@ let minBomb = 25;
 let building;
 let score = 0;
 let health = 3;
-let s = 50;
-let button;
-
 
 function preload(){ //loading my images
   bombImage = loadImage("bomb.webp");
