@@ -46,8 +46,8 @@ function draw(){
   strokeWeight(3);
   textSize(50);
   textAlign(CENTER);
-  text('score:', width-150,50);
-  text(score,width-50,50);
+  text('score:', width-200,50);
+  text(score,width-100,50);
   text('lives:',100,80);
   push(); //Making the hearts
   strokeWeight(1);
