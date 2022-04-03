@@ -47,7 +47,7 @@ function draw(){
   text('Lives:', width-150,100);
   text(health, width-50,100);
   textSize(30);
-  text('AVOID THE BOMBS!', 500, 50);
+  text('AVOID THE BOMBS!', width/2, height/2-300);
 
 }
 
