@@ -11,10 +11,7 @@ let score = 0;
 let health = 3;
 let s = 50;
 let button;
-// let life = 3;
-let color1;
-let color2;
-let color3;
+
 
 function preload(){ //loading my images
   bombImage = loadImage("bomb.webp");
@@ -24,9 +21,7 @@ function preload(){ //loading my images
 
 function setup(){
   createCanvas(windowWidth, windowHeight);
-  color1 = color(255, 0, 0)
-  color2 = color(255, 0, 0)
-  color3 = color(255, 0, 0)
+
 }
 
 function draw(){
@@ -43,21 +38,17 @@ function draw(){
   checkBombHit();
   lose();
   fill(0);
-  stroke(0);
+  stroke(255,0,0);
   strokeWeight(3);
   textSize(50);
   textAlign(CENTER);
-  text('score', width-200,-100);
+  text('Score', width-150,50);
   text(score,width-50,50);
-  push(); //Making the hearts
-  strokeWeight(1);
-    heart(200, 50, 30, color1)
-    heart(240, 50, 30, color2)
-    heart(280, 50, 30, color3)
-  lifeCheck();
-  pop();
+  text('Lives:', width-150,100);
+  text(health, width-50,100);
   textSize(30);
   text('AVOID THE BOMBS!', 500, 50);
+
 }
 
 function checkBombNum(){ //creating the objects so they continuosly appear
@@ -101,49 +92,13 @@ function checkBombHit(){
   }
 }
 
-function heart(x, y, size, col) {
-  beginShape();
-  fill(col)
-  strokeWeight(3)
-  vertex(x, y);
-  bezierVertex(x - size / 2, y - size / 2, x - size, y + size / 3, x, y + size);
-  bezierVertex(x + size, y + size / 3, x + size / 2, y - size / 2, x, y);
-  endShape(CLOSE);
-}
-function lifeCheck() {
-  if (health === 3) {
-    color1 = color(255, 0, 0)
-    color2 = color(255, 0, 0)
-    color3 = color(255, 0, 0)
-  } else if (health === 2) {
-    color1 = color(255, 255, 255)
-    color2 = color(255, 0, 0)
-    color3 = color(255, 0, 0)
-  } else if (health === 1) {
-    color1 = color(255, 255, 255)
-    color2 = color(255, 255, 255)
-    color3 = color(255, 0, 0)
-  } else if (health === 0) {
-    color1 = color(255, 255, 255)
-    color2 = color(255, 255, 255)
-    color3 = color(255, 255, 255)
-  }
-}
-
 function lose(){
   if (health <= 0){
-    fill(0);
+    fill(255,0,0);
     noStroke();
-    textSize(50);
-    text('GAME OVER', width/2, height+800);
+    textSize(40);
+    text('GAME OVER:( REFRESH TO PLAY AGAIN', width/2, 300);
     noLoop();
-    button = createButton('PLAY AGAIN');
-    button.position(width/2,height - 100);
-    button.style('background', '#661616');
-    button.size(300,50);
-    button.mousePressed(reloadCanvas);
-function reloadCanvas(){
-  window.location.reload(true);
-    }
+
   }
 }
