@@ -15,8 +15,9 @@ The concept of the game from the previous version is somewhat the same, but the 
 
 With object-oriented programming, I demonstrate an aesthetic programming perspective. It is not a program that allows the viewer to join my thought per se, but my approach for this miniX7 has very much been critical. I have explored abstraction in relation to object-oriented programming, and I have learned a lot from acquiring or trying to understand this perspective.
 
-[RunMe](https://oskarbuhl.gitlab.io/aesthetic-programming/miniX7/)
-[Code](https://gitlab.com/OskarBuhl/aesthetic-programming/-/blob/main/miniX7/sketch.js)
+### [RunMe](https://oskarbuhl.gitlab.io/aesthetic-programming/miniX7/)
+
+### [Code](https://gitlab.com/OskarBuhl/aesthetic-programming/-/blob/main/miniX7/sketch.js)
 
 ### Refrence:
 
