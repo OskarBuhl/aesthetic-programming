@@ -84,7 +84,6 @@ function checkBombHit(){
   } else if (bomb[i].pos.x < 3){
     score++;
     bomb.splice(i,1);
-    print("hej")
     }
   }
 }
