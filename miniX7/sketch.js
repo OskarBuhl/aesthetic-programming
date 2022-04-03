@@ -13,13 +13,14 @@ let button;
 let color1;
 let color2;
 let color3;
-// let sound;
+let mySound;
 
 function preload(){ //loading my images
   bombImage = loadImage("bomb.webp");
   building = loadImage("building.png");
   pic = loadImage("pic.png");
-  // sound = loadSound("sound.mp3");
+  soundFormats('mp3');
+  mySound = loadSound("explosion.mp3");
 }
 
 function setup(){
@@ -94,7 +95,7 @@ function checkBombHit(){
   if (d < buildingSize.w/2){
     health--;
     bomb.splice(i,1);
-    // sound.play();
+    mySound.play();
   } else if (bomb[i].pos.x < 3){
     score++;
     bomb.splice(i,1);
