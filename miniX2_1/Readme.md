@@ -1,18 +1,4 @@
-
-![](express.png) ![](hygge.png)
-
-
-## Links
-### A: HYGGE
-### Code: https://gitlab.com/OskarBuhl/aesthetic-programming/-/blob/main/miniX2_1/sketch.js
-### Runme: https://oskarbuhl.gitlab.io/aesthetic-programming/miniX2_1/
-
-### B: EXPRESS YOURSELF
-### Code: https://gitlab.com/OskarBuhl/aesthetic-programming/-/blob/main/minix2_2/sketch_2.js
-###: Runme: https://oskarbuhl.gitlab.io/aesthetic-programming/minix2_2/
-
-
-## 1. Describe your program and what you have used and learned.
+<img src="hygge.png" alt="hygge" width="50%"/><img src="express.png" alt="express" width="50%"/>
 
 I've made two different programs.
 ### A:
@@ -23,7 +9,14 @@ But I guess when it comes to emojis, the symbolism must be spelled out.
 The second program was just a simple drawing program. I made the line out of bubbles/circles to do something more interesting than a line. It’s not very creative, but we had to make two emojis, and so this was what I ended up with. It’s not the purpose to draw a face in particular. The program can be used to express yourself with other figures, numbers etc. The point of this piece is that an emoji is subjective, so you might as well just draw it yourself. It probably won’t be a better tool than emojis, but at least you’re the creator.
 I really wanted to make some sort of generator, that made it possible to download a picture of your drawn emoji, but I didn’t have the time to make it work. I found “createWriter” which allows you to download text that you can make into an image, but I don’t think this could work with something that you draw live. The three red dots look like the Christiania flag, which was pretty funny to me, and reminded me of Copenhagen and where I grew up.
 
-## 2. How would you put your emoji into a wider social and cultural context that concerns a politics of representation, identity, race, colonialism, and so on?
-###### (Try to think through the assigned reading and your coding process, and then expand that to your own experience and thoughts - this is a difficult task, you may need to spend some time thinking about it).
-
 The first piece is a comment on how we perceive emotions and what we give meaning and power. In the idea of social constructivism our language is what makes our society and dictates how we appear and act in social institutions. With this perspective in mind, we could try to be more aware of how we express ourselves. What I mean is; if we would try to bend how we use our language, we could change the way we think and act. So maybe emojis can’t be universal, because of the symbolic meaning they have in our language/understanding, therefore the solution would be to change the way we use our language, which could be by colors and light. I’m not saying that my piece is a revelation, and the solution is now broadcasted to you. My point is that the power in our actions lies within our language and how we think. This is something impossible so revolutionize, but we could replace the concept of emojis with something like color and light. 
+
+## Links
+### A: HYGGE
+### [Code:](https://gitlab.com/OskarBuhl/aesthetic-programming/-/blob/main/miniX2_1/sketch.js)
+
+### [Runme:](https://oskarbuhl.gitlab.io/aesthetic-programming/miniX2_1/)
+
+### B: EXPRESS YOURSELF
+### [Code:](https://gitlab.com/OskarBuhl/aesthetic-programming/-/blob/main/minix2_2/sketch_2.js)
+###: [Runme:](https://oskarbuhl.gitlab.io/aesthetic-programming/minix2_2/)
